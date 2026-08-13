@@ -1,0 +1,32 @@
+Task 10 — Final Challenge 🔥
+
+Create a complete Employee class with:
+
+private id
+private name
+private salary
+static company
+static count
+default constructor
+parameterized constructor
+overloaded constructor
+getters/setters
+display()
+static showCount()
+static block
+
+Create 5 employees and display all information.
+
+Rules for today's practice
+
+Don't use:
+
+inheritance
+interfaces
+collections
+database
+advanced Java
+
+Focus only on:
+
+Constructor → this → static → private → getters/setters → constructor overloading.
