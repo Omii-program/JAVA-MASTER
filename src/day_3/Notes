@@ -1,0 +1,38 @@
+Encapsulation in Java
+1. Encapsulation
+What is Encapsulation?
+
+Encapsulation = wrapping data and methods together inside a class + controlling access to the data.
+OR
+Encapsulation in Java is an object-oriented principle that binds data and methods into a single unit, typically a class.
+ It restricts direct access to data by hiding implementation details.
+ This ensures controlled interaction with the data through defined methods.
+
+Achieved using access modifiers like private, protected, and public.
+Improves data security by allowing validation through getters and setters.
+Enhances code maintainability by isolating changes within the class.
+
+Example:
+
+class BankAccount {
+
+
+    private double balance;
+
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+Here:
+
+balance → data
+setBalance() → method to modify data
+getBalance() → method to access data
+private → prevents direct access from outside
