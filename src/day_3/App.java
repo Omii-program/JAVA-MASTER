@@ -23,7 +23,10 @@ public class App {
         System.out.println(m1.getName());/* --> execute hoga kyu ki Manager Person class ko extend krta hai.... to uski sari feilds and method ko acces krta hai
 
         /* p2.getDepartment();--> it will give an error. beacause Person ka reference kisi getDepartment ko janta nahi*/
+        //Baki PArt Polymorphism me samjega...
 
+        /* Q]   Why Does Runtime Polymorphism Happen?
+                Because Java decides the overridden method based on the actual object at runtime, not just the reference type.*/
 
     }
 }
