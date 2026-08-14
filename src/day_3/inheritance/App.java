@@ -19,6 +19,7 @@ public class App {
          Cat c2=new Cat();
          c2.sound();//--> it will always call Cat sound()... we can't call Animal sound() using Cat c2 reference
 
+        System.out.println(a1.x);//--> the reference is created of Animal thats why it acces Animal x
 
 
 

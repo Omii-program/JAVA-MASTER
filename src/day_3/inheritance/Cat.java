@@ -1,6 +1,7 @@
 package day_3.inheritance;
 
 public class Cat extends Animal{
+    int x=1;
     private String name;
     Cat(){
 
