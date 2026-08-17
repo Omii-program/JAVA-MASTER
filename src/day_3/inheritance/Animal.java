@@ -11,4 +11,7 @@ public class Animal {
     public void sound(){
         System.out.println("Animal make sound...");
     }
+    public static void eat(){
+        System.out.println("Animal can eat");
+    }
 }
